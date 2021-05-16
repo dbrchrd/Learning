@@ -1,3 +1,5 @@
+// |||||| LEARNING - VARIABLES ERRORS |||||| //
+
 const c = "const";
 var v = "var";
 let l = "let";
