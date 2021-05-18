@@ -32,5 +32,14 @@ if (true) {
  }
 }
 // for in //
-
+if (true) {
+  var object = ["John", "Doe", 31];
+  for (var x in object) {
+    console.log(x);
+  }
+  var object2 = {fullname:"John", lastname:"Doe", age: 31};
+  for (var x in object2) {
+    console.log(x);
+  }
+}
 // for of //
