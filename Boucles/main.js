@@ -41,5 +41,14 @@ if (true) {
   for (var x in object2) {
     console.log(x);
   }
+  for (var x in object2) {
+    console.log(object2[x]);
+  }
 }
 // for of //
+if (true) {
+  var object = ["John", "Doe", 31];
+  for (var x of object) {
+    console.log(x);
+  }
+}
