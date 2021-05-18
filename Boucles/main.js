@@ -23,7 +23,13 @@ if (true) {
 }
 // for //
 if (true) {
-  
+  let arr = [];
+  for (var i = 0; ; i+=3) {
+   if (i > 0) { arr.push(i); }
+   console.log(i);
+   console.log(arr);
+   if (i >= 99) break;
+ }
 }
 // for in //
 
