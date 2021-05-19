@@ -7,3 +7,11 @@ if (true) {
   }
   console.log(functionName(31, 66));
 }
+// function "avec variable" //
+if (true) {
+  let functionName = function(a, b) {
+    // Instructions
+    return a * b;
+  }
+  console.log(functionName(31, 66));
+}
